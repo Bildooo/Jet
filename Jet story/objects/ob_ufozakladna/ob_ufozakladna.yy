@@ -135,6 +135,20 @@
             "value": "4",
             "varName": "posko",
             "varType": 1
+        },
+        {
+            "id": "4606200d-4055-4b6e-821d-4f4516b71150",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 256,
+            "value": "ob_koule",
+            "varName": "enemak",
+            "varType": 5
         }
     ],
     "solid": false,

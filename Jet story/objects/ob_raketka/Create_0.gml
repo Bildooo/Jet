@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+Sname = part_system_create();
+//
 //------------  vodorovny pohyb   --------------------
 zrychleni = 0.2
 spomaleni = 0.03

@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "23879856-3406-4346-a0f5-ef2fb7c3bc2c",
+            "Value": {
+                "id": "b56cb0ed-2fc3-4af6-b1fb-bb1878a0dbca",
+                "resourcePath": "views\\23879856-3406-4346-a0f5-ef2fb7c3bc2c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "24daeb7b-4dc6-44ea-a89f-3a63e1fa277b",
             "Value": {
                 "id": "845e38b1-3f3d-4e46-a3a9-1680b5a64bda",
@@ -467,6 +475,14 @@
             "Value": {
                 "id": "deb4e01b-d346-4bd2-a6e5-02492ad700f1",
                 "resourcePath": "views\\4f5b8ee1-0aa7-4892-94c6-5ffdf15f826e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4fd38d8a-d90a-4084-9165-69d1495a2fe7",
+            "Value": {
+                "id": "671384b6-ca28-4d0d-95aa-eaaabedc983a",
+                "resourcePath": "views\\4fd38d8a-d90a-4084-9165-69d1495a2fe7.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -836,6 +852,14 @@
                 "id": "017b29aa-0102-4529-9d42-071b6e8a3a6c",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a95b18f1-c2ba-4796-a139-86ff71a81088",
+            "Value": {
+                "id": "3c706ea3-1bc0-47d3-8d51-b75e575902d2",
+                "resourcePath": "scripts\\effectDust\\effectDust.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1247,7 +1271,8 @@
         "7144f021-de85-429d-ac8f-eb6888275701",
         "3993d3b8-4064-450c-83fb-2067b0a6fd6c",
         "096b43bd-ad4b-41ce-9b5f-e677f1d5f08d",
-        "b4d05272-6d4b-45a8-b1b9-74e1fa2eafa8"
+        "b4d05272-6d4b-45a8-b1b9-74e1fa2eafa8",
+        "a95b18f1-c2ba-4796-a139-86ff71a81088"
     ],
     "tutorial": ""
 }

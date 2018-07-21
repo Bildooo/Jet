@@ -7,7 +7,7 @@ instance_deactivate_all(true)
 
 cam = view_camera[0]
 vx =  global.xview
-vy =  global.yview + 64
+vy =  global.yview
 vxx =  512 // +128
 vyy = 384 // +64
 

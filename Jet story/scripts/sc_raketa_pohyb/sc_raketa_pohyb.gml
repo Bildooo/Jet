@@ -65,8 +65,11 @@ if(key_up)and(fuel>0){
 		vsped += -tah
 	}
 	repeat(2){
-		sc_tvorprach(260+random(20), x-14, y+14, c_yellow, 0.15, 5)
-		sc_tvorprach(260+random(20), x+14, y+14, c_yellow, 0.15, 5)
+		//sc_tvorprach(260+random(20), x-14, y+14, c_yellow, 0.15, 5)
+		//sc_tvorprach(260+random(20), x+14, y+14, c_yellow, 0.15, 5)
+		effectDust(x - 16, y + 12);
+		effectDust(x + 16, y + 12);
+		
 	}
 }
 else

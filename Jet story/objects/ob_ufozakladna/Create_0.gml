@@ -13,6 +13,8 @@ speed = speedR;
 obr = irandom(4) * 5
 maxobr = obr + 5
 
-dite = instance_create_depth(x-32,y-32,depth,ob_koule)
-dite.otec = self
+
+
+dite = instance_create_depth(x-32,y-32,depth,enemak )
+dite.otec = id
 zivot = (dite.zivot/2)
