@@ -8,3 +8,5 @@ if(obr = maxobr){
 	obr -= 5
 }
 image_index = obr
+
+

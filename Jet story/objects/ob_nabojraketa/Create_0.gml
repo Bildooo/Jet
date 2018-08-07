@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-damage = 20
+damage = 10
 image_xscale = 0.6
 image_yscale = 1

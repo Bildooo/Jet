@@ -7,7 +7,7 @@ if(place_meeting(x+hspeed, y, ob_zed)){
 		x += sign(hspeed)
 	}	
 	hspeed = hspeed *-1
-	hspeed += random(0.3) -0.15
+	hspeed += random(0.4) -0.2
 }
 
 else {
@@ -20,7 +20,7 @@ if(place_meeting(x, y+vspeed, ob_zed)){
 		y += sign(vspeed)
 	}	
 	vspeed = vspeed *-1
-	vspeed += random(0.3) -0.15
+	vspeed += random(0.4) -0.2
 }
 
 else {

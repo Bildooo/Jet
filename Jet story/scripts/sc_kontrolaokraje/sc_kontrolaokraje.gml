@@ -39,4 +39,5 @@ if(y < global.yviewT + 64){
 	y = global.yviewT +64;
 	global.yviewT -= 320;
 }
+
 #endregion

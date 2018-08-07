@@ -8,7 +8,7 @@ if(instance_exists(ob_raketka)){
 		ii = round(image_index)	
 		if (ob_raketka.x < x) and (ii=5)  {
 			audio_play_sound(snd_bomba,1,0)
-			nn = instance_create_depth(x,y-15,depth,ob_raketkatocnaboj)
+			nn = instance_create_depth(x,y+24,depth,ob_raketkatocnaboj)
 			nn.direction = 180
 			nn.image_xscale = -1
 			nn.speed = 6
@@ -16,7 +16,7 @@ if(instance_exists(ob_raketka)){
 		}
 		if (ob_raketka.x > x) and (ii=15)  {   
 			audio_play_sound(snd_bomba,1,0)
-			nn = instance_create_depth(x,y-15,depth,ob_raketkatocnaboj)
+			nn = instance_create_depth(x,y+24,depth,ob_raketkatocnaboj)
 			nn.direction = 0
 			nn.image_xscale = 1
 			nn.speed = 6

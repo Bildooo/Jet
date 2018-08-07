@@ -15,13 +15,15 @@ if(instance_exists(ob_raketka)) {
 			ee = instance_create_depth(x-16-16+irandom(32), y+16-16+irandom(32), depth, ob_nabojdelo)
 			ee.speed = 5+random(1)
 			ee.direction = 180 //point_direction(x+16, y+16, ob_raketka.x-20+irandom(40), ob_raketka.y-20+irandom(40) )		
-			}
+			audio_play_sound(snd_kulkyshot, 1,false)
+		}
 	}
 	if(yyy < 64)and(image_xscale = 1) and (x<ob_raketka.x){
 		repeat(10){
 			ee = instance_create_depth(x+16-16+irandom(32), y+16-16+irandom(32), depth, ob_nabojdelo)
 			ee.speed = 5+random(1)
 			ee.direction = 0// point_direction(x+16, y+16, ob_raketka.x-20+irandom(40), ob_raketka.y-20+irandom(40) )		
-			}
+			audio_play_sound(snd_kulkyshot, 1,false)
+		}
 	}
 }

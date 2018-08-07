@@ -3,3 +3,5 @@
 
 zivot = 1
 damage = 1
+
+otec = 0

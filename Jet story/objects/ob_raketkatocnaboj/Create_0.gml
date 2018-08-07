@@ -4,4 +4,4 @@
 // Inherit the parent event
 
 zivot = 6
-damage = 4
+damage = 3

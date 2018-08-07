@@ -11,6 +11,7 @@ if(instance_exists(ob_raketka)) {
 					ee = instance_create_depth(x, y, depth, ob_nabojdelo)
 					ee.speed = 4+random(1)
 					ee.direction = point_direction(x+16, y+16, ob_raketka.x-25+irandom(50), ob_raketka.y-25+irandom(50) )		
+					audio_play_sound(snd_kulkyshot,1,0)
 				}
 			}
 			

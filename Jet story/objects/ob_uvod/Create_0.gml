@@ -4,4 +4,4 @@
 global.music = 1
 global.fullscreen = 0
 
-
+ii = 0

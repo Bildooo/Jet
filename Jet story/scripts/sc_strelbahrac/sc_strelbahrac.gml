@@ -4,7 +4,7 @@ var keydown = keyboard_check_pressed(vk_down)
 
 #region strelba nabojov
 if (keyX) and ( (instance_number(ob_naboj)<2) and (ammo>0)) {
-	ammo--
+	ammo -= 0.5
 	audio_play_sound(snd_laser,1,false)
 	naboj = instance_create_layer(x,y,"Instances",ob_naboj)
 	if(image_xscale = -1){

@@ -2,12 +2,20 @@
 // You can write your code in this editor
 if(keyboard_check_pressed(ord("M"))){
 	if (global.music = 1){
-		global.music = 0;
+		global.music = 2;
 		audio_stop_sound(snd_music128)
+		audio_play_sound(snd_music48,1,1)
+		exit
 	}
-	else if (global.music = 0){
+	if (global.music = 2){
+		global.music = 0;
+		audio_stop_sound(snd_music48)
+		exit
+	}
+	if (global.music = 0){
 		global.music = 1;
-		audio_play_sound(snd_music128, 1, 1)
+		audio_play_sound(snd_music128,1,1)
+		exit
 	}
 }
 

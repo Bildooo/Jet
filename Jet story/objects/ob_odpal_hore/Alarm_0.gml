@@ -9,6 +9,8 @@ ee.direction = 270 //point_direction(x+16, y+16, ob_raketka.x, ob_raketka.y )
 ee.image_angle = 270
 mozempalit = true
 
+audio_play_sound(snd_rocketshot,1,0)
+
 
 /*
 xview = (camera_get_view_x(view_camera[0]))

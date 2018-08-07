@@ -12,3 +12,5 @@ speedR = irandom_range(3,6)
 speed = speedR;
 obr = irandom(4) * 5
 maxobr = obr + 5
+
+Sname = part_system_create();

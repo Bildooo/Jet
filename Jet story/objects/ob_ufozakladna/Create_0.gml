@@ -15,6 +15,8 @@ maxobr = obr + 5
 
 
 
-dite = instance_create_depth(x-32,y-32,depth,enemak )
+dite = instance_create_depth(x,y-32,depth,enemak )
 dite.otec = id
-zivot = (dite.zivot/2)
+zivot = (dite.zivot/3)
+
+Sname = part_system_create();

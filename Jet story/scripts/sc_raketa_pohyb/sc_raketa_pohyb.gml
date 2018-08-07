@@ -5,25 +5,27 @@ var hhsped
 
 #region vodorovny pohyb
 if (key_right)and(fuel>0){
-	fuel -= 0.025
+	fuel -= 0.010
 	ohenza = true
 	image_xscale = 1
 	if(hsped < max_hspeed){
 		hsped += zrychleni
 	}
 	repeat(3){
-		sc_tvorprach(170+random(20), x, y, c_yellow, 0.1, 7)
+		//sc_tvorprach(170+random(20), x, y, c_yellow, 0.1, 7)
+		effectDust_left_right(x-33, y-3, 180)
 	}	
 }
 if (key_left)and(fuel>0){
-	fuel -= 0.025
+	fuel -= 0.010
 	ohenza = true
 	image_xscale = -1
 	if(hsped > -max_hspeed){
 		hsped -= zrychleni
 	}
 	repeat(3){
-		sc_tvorprach(350+random(20), x, y, c_yellow, 0.1, 5)
+		//sc_tvorprach(350+random(20), x, y, c_yellow, 0.1, 5)
+		effectDust_left_right(x+33, y-3, 0)
 	}	
 }
 
@@ -59,7 +61,7 @@ else{
 #region svisly pohyb
 if(key_up)and(fuel>0){
 	ohenpod = true
-	fuel -= 0.025
+	fuel -= 0.020
 	if(-vsped < maxtah){
 		tah += plyn
 		vsped += -tah
@@ -67,8 +69,8 @@ if(key_up)and(fuel>0){
 	repeat(2){
 		//sc_tvorprach(260+random(20), x-14, y+14, c_yellow, 0.15, 5)
 		//sc_tvorprach(260+random(20), x+14, y+14, c_yellow, 0.15, 5)
-		effectDust(x - 16, y + 12);
-		effectDust(x + 16, y + 12);
+		effectDust(x - 12, y + 15);
+		effectDust(x + 12, y + 15);
 		
 	}
 }

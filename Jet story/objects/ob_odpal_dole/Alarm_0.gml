@@ -7,6 +7,8 @@ ee = instance_create_depth(x, y, depth, ob_nabojraketa)
 ee.speed = 8
 ee.direction = 90 //point_direction(x+16, y+16, ob_raketka.x, ob_raketka.y )
 ee.image_angle = 90
+audio_play_sound(snd_rocketshot,1,0)
+
 mozempalit = true
 
 

@@ -10,7 +10,10 @@
         "f69f490e-f287-4a13-bce5-a809fbb030ec",
         "daf8045a-665a-4192-9dc9-2f55132ecbe3",
         "c2a49863-e464-403e-9a4d-76f2bc6ff66b",
-        "ddde76e4-4258-4a64-a391-9cb3e0805ff9"
+        "ddde76e4-4258-4a64-a391-9cb3e0805ff9",
+        "b5b22756-bcf6-4202-9488-6c6f87527772",
+        "666750ff-bb8f-4f97-bdfc-2fa4f5423283",
+        "8df6c532-d8b3-4c0b-86b5-86f9f3372deb"
     ],
     "filterType": "GMSprite",
     "folderName": "ENEMACI NA ZEMI",

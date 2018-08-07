@@ -8,3 +8,4 @@ repeat(argument[0]){
 	aa.direction = uhel
 	uhel += uhela	
 }
+instance_create_layer(x, y, "Instances", ob_vybuch )
