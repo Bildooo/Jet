@@ -791,14 +791,6 @@
             }
         },
         {
-            "Key": "88f43e52-42e0-48ff-8dd3-f1ea020e2f41",
-            "Value": {
-                "id": "c6a558ae-a832-47e6-8a48-8068cb12a1af",
-                "resourcePath": "sprites\\spr_raketkaohenza\\spr_raketkaohenza.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8d108044-f1c2-451c-bdfa-47a4e73ce9be",
             "Value": {
                 "id": "fcc597ee-4470-47f2-a66e-2792ef370b7a",
@@ -1259,14 +1251,6 @@
             "Value": {
                 "id": "b4c7e797-290f-47bb-85e4-efd82017b358",
                 "resourcePath": "sprites\\sp_odpal_hore\\sp_odpal_hore.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "df5d4f58-b84e-49fa-93dd-3295f9757f3e",
-            "Value": {
-                "id": "f720bbe2-e34a-446e-a29f-fc46214c685e",
-                "resourcePath": "sprites\\spr_raketkaohendown\\spr_raketkaohendown.yy",
                 "resourceType": "GMSprite"
             }
         },
