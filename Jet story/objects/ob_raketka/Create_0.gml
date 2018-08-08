@@ -19,7 +19,7 @@ vsped = 0
 ohenpod = false
 ohenza = false
 
-nabojspeed = 5 // 14
+nabojspeed = 14
 
 zivot = 100
 ammo = 100
